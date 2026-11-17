@@ -1,0 +1,9 @@
+# Build artifacts
+*.exe
+*.ilk
+*.obj
+*.pdb
+
+# Local student records
+alunos.dat
+alunos.txt
