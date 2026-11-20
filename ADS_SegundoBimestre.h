@@ -97,8 +97,8 @@ public:
 };
 
 void Aluno::alterarNota(int matBuscada) {
-    // Certifique-se de usar o mesmo nome de arquivo definido no seu projeto (ex: "alunos.dat" ou "alunos.txt")
-    const std::string nomeArquivo = "alunos.dat"; 
+    // Certifique-se de usar o mesmo nome de arquivo definido no seu projeto (ex: "alunos.txt" ou "alunos.txt")
+    const std::string nomeArquivo = "alunos.txt";
 
     // Abre o arquivo em modo binário para LEITURA e ESCRITA simultâneas (ios::in | ios::out)
     std::fstream arq(nomeArquivo, std::ios::binary | std::ios::in | std::ios::out);
